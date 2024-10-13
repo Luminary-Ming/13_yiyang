@@ -1,0 +1,10 @@
+### IntelliJ IDEA ###
+yiyang_springboot/.idea
+yiyang_springboot/yiyang-beans/target
+yiyang_springboot/yiyang-common/target
+yiyang_springboot/yiyang-server/target
+
+
+### VS Code ###
+yiyang_ui/.vscode/
+yiyang_ui/node_modules/

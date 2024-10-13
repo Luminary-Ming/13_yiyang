@@ -1,0 +1,303 @@
+{
+  "id": "4698368",
+  "name": "养老",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8825958",
+      "name": "展开",
+      "font_class": "zhankai",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "37940752",
+      "name": "收缩",
+      "font_class": "shousuo",
+      "unicode": "e7bb",
+      "unicode_decimal": 59323
+    },
+    {
+      "icon_id": "579741",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e788",
+      "unicode_decimal": 59272
+    },
+    {
+      "icon_id": "722465",
+      "name": "系统",
+      "font_class": "xitong",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "738236",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "761292",
+      "name": "课堂培训",
+      "font_class": "icon",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "1367323",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "1763890",
+      "name": "楼宇管理",
+      "font_class": "louyuguanli",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "1921128",
+      "name": "员工管理",
+      "font_class": "yuangongguanli",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "1963493",
+      "name": "供应商管理",
+      "font_class": "gongyingshangguanli",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "2468160",
+      "name": "系统管理",
+      "font_class": "xitongguanli",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "3153231",
+      "name": "来访",
+      "font_class": "laifang",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "3365078",
+      "name": "养老保险",
+      "font_class": "yanglao",
+      "unicode": "e77b",
+      "unicode_decimal": 59259
+    },
+    {
+      "icon_id": "3443175",
+      "name": "03_床位管理",
+      "font_class": "chuangweiguanli",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "5114575",
+      "name": "系统菜单",
+      "font_class": "xitongcaidan",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "5791022",
+      "name": "护理记录",
+      "font_class": "hulijilu",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "6211879",
+      "name": "6-2车辆",
+      "font_class": "-cheliang",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "6308137",
+      "name": "客户管理",
+      "font_class": "kehuguanli",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "6331957",
+      "name": "床",
+      "font_class": "chuang",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "8013537",
+      "name": "试入住登记",
+      "font_class": "ruzhudengji",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "8561014",
+      "name": "房间管理",
+      "font_class": "fangjianguanli",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "8729896",
+      "name": "客户管理",
+      "font_class": "kehuguanli2",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "9200935",
+      "name": "员工培训",
+      "font_class": "yuangongpeixun",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "9557236",
+      "name": "HTSCIT_添加用户",
+      "font_class": "tianjiayonghu",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "9950272",
+      "name": "6-2权限管理",
+      "font_class": "quanxianguanli",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "9998989",
+      "name": "menuBuilding",
+      "font_class": "louyuguanli2",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "10183057",
+      "name": "护理记录",
+      "font_class": "hulijilu2",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "10458095",
+      "name": "考勤管理",
+      "font_class": "kaoqinguanli",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "10773142",
+      "name": "Cookbook",
+      "font_class": "yongcanjilu2",
+      "unicode": "ede5",
+      "unicode_decimal": 60901
+    },
+    {
+      "icon_id": "10990137",
+      "name": "体检预约",
+      "font_class": "tijianyuyue",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "11332493",
+      "name": "体检管理",
+      "font_class": "tijianguanli",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "12671052",
+      "name": "护理管理",
+      "font_class": "huliguanli",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "13265223",
+      "name": "外出登记",
+      "font_class": "waichudengji",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "16127418",
+      "name": "菜谱管理",
+      "font_class": "caipuguanli",
+      "unicode": "ed3f",
+      "unicode_decimal": 60735
+    },
+    {
+      "icon_id": "23681236",
+      "name": "设施管理",
+      "font_class": "sheshiguanli",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "24164800",
+      "name": "采购管理",
+      "font_class": "caigouguanli",
+      "unicode": "e809",
+      "unicode_decimal": 59401
+    },
+    {
+      "icon_id": "27325321",
+      "name": "体检查询",
+      "font_class": "tijianchaxun",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "28819308",
+      "name": "用餐记录",
+      "font_class": "yongcanjilu",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "29735713",
+      "name": "来访登记",
+      "font_class": "laifangdengji",
+      "unicode": "ea66",
+      "unicode_decimal": 60006
+    },
+    {
+      "icon_id": "33764244",
+      "name": "食材管理",
+      "font_class": "shicaiguanli",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "33996919",
+      "name": "膳食管理",
+      "font_class": "shanshiguanli",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "38628018",
+      "name": "客户信息",
+      "font_class": "kehuxinxi",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    }
+  ]
+}

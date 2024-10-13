@@ -1,0 +1,30 @@
+server:
+  # 配置服务器端口号
+  port: 80
+
+spring:
+  # 项目中有多个配置文件时，指定某个文件生效
+  profiles:
+    active: dev
+  # 配置数据库连接参数
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yiyang_db
+    username: root
+    password: leesin
+    type: com.alibaba.druid.pool.DruidDataSource
+  # 配置项目访问的根路径
+  mvc:
+    servlet:
+      path: /
+# mybatis-plus 配置
+mybatis-plus:
+  configuration:
+    # 配置 mybatis-plus 日志
+    # 配置 mybatis-plus 日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 配置 springboot 日志级别
+logging:
+  level:
+    root: info

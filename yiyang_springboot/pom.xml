@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.yiyang</groupId>
+    <artifactId>yiyang_springboot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <!--
+       采用 pom 打包方式，pom打包方式允许在父级工程中统一管理各个子模块的依赖版本、插件版本等，
+       确保整个项目中使用的组件版本一致，避免版本冲突。
+       pom打包方式主要用于以下场景：
+       ● 父级工程：作为多个子模块的父级，统一管理依赖、插件和构建配置。
+       ● 聚合工程：聚合多个子模块，实现一次性构建和部署。
+       ● 依赖管理工程：专门用于管理项目中使用的依赖版本，确保版本一致性。
+   -->
+    <packaging>pom</packaging>
+
+    <!-- 当前工程是父工程，通过 modules 引入对应的子工程 -->
+    <modules>
+        <module>yiyang-beans</module>
+        <module>yiyang-common</module>
+        <module>yiyang-server</module>
+    </modules>
+
+
+    <!-- 父工程导入 SpringBoot -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.4</version>
+    </parent>
+
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- 方便管理版本号 -->
+        <mybatis-plus.version>3.5.7</mybatis-plus.version>
+        <mysql.version>8.3.0</mysql.version>
+        <druid.version>1.2.23</druid.version>
+        <springdoc.version>2.6.0</springdoc.version>
+    </properties>
+
+    <dependencies>
+
+        <!-- SpringMVC 启动器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- 单元测试启动器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!-- mysql 数据库 -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
+
+        <!-- 阿里连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <!-- mybatis-plus 启动器 -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+            <version>${mybatis-plus.version}</version>
+        </dependency>
+
+        <!-- SpringDoc 快速生成帮助文档 -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>${springdoc.version}</version>
+        </dependency>
+
+
+    </dependencies>
+
+    <build>
+        <!-- 项目打包名 -->
+        <finalName>yiyang-springboot</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

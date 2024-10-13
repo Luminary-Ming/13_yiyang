@@ -1,0 +1,4 @@
+# 配置用于生成接口帮助文档的访问路径
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

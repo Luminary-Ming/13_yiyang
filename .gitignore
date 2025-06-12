@@ -1,10 +1,16 @@
 ### IntelliJ IDEA ###
-yiyang_springboot/.idea
-yiyang_springboot/yiyang-beans/target
-yiyang_springboot/yiyang-common/target
-yiyang_springboot/yiyang-server/target
-
-
+.idea/
+_idea/
+*.iws
+*.iml
+*.ipr
+target/
+out/
+src/resources/rebel.xml
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 ### VS Code ###
-yiyang_ui/.vscode/
-yiyang_ui/node_modules/
+.vscode/
+_vscode/
+node_modules/
